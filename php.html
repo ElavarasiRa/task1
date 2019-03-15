@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/firstproject.css">
+	<style type="text/css">
+		input[type=text]{
+			margin-left: 80px;
+			width: 65%;
+			padding: 16px 180px;
+			font-size: 18px;
+			box-sizing: border-box;
+			border-radius: 30px;
+			background-color: lightblue;
+			border-bottom: 4px solid black;
+			border-right: 2px solid white;
+			border-top: 2px solid #a0a3a5;
+			color: grey;
+		}
+		input[type=submit]{
+			width: 8%;
+			margin-left: 310px;
+			box-sizing: border-box;
+			padding: 1px 4px;
+			border-radius: 20px;
+			border-bottom: 4px solid black;
+		}
+		input[type=text]:hover {
+			background-color: blue;
+		}
+		input[type=submit]:hover {
+			background-color: blue;
+		}
+		#set{
+			margin-left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<header class="name">
+		<div>
+			<img src="img/index.png" alt="natrix" class="ela">
+		<div class="bb">
+			<img src="img/twitter.jpg" alt="twitter" class="ab">
+			<img src="img/whatsapp.png" alt="whatsapp" class="ab">
+			<img src="img/fb.png" alt="fb" class="ab">
+		</div>
+		</div>
+	</header>
+	<div>
+		<div>
+  			<div class="one">
+  				<ul>
+      				<li><a href="index.html" class="like">HOME</a></li>
+      				<li><a href="aout.html" class="like">ABOUT</a></li>
+      				<li><a href="php.html" class="active">PHP</a></li>
+   				</ul>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="wt">
+		<h4><b>Login</b></h4><br><br>
+		<form>
+			<label for="name">Name :</label>
+			<input type="text" name="name" placeholder="Enter Your Name"><br><br><br>
+			<label for="email">Email :</label>
+			<input type="text" name="email" placeholder="Enter Your E-mail"><br><br>
+			<input type="submit" value="Submit">
+			||
+			<input type="submit" id="set" value="Reset">
+		</form>
+	</div>
+	<footer>
+		<p class="ac">copy@right 2018</p>
+	</footer>
+</body>
+</html>
